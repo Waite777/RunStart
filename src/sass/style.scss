@@ -1,7 +1,9 @@
-@import "variables";
-@import "promo";
-@import "header";
-@import "mixins";
+@import "base/variables";
+@import "base/mixins";
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantages";
 
 * {
    font-family: "Museo Sans Cyrl", sans-serif;
