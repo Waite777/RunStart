@@ -45,9 +45,13 @@
    }
 
    &__contant {
-      display: flex;
-      justify-content: space-between;
+      display: none;
+      //justify-content: space-between;
       flex-wrap: wrap;
+
+      &-active {
+         display: flex;
+      }
    }
 
    &-item {
@@ -56,7 +60,7 @@
       border: 2px solid #e8e8e8;
       padding: 20px 20px 26px 20px;
       overflow: hidden;
-      margin-bottom: 20px;
+      margin: 8px;
 
       &__img {
          display: block;
