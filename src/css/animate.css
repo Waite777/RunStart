@@ -2,7 +2,7 @@
  * animate.css - https://animate.style/
  * Version - 4.1.1
  * Licensed under the MIT license - https://opensource.org/licenses/MIT
- *
+ * 1
  * Copyright (c) 2021 Animate.css
  */
 :root {
@@ -11,8 +11,8 @@
    --animate-repeat: 1;
 }
 .animate__animated {
-   -webkit-animation-duration: 10s;
-   animation-duration: 10s;
+   -webkit-animation-duration: 1s;
+   animation-duration: 1s;
    -webkit-animation-duration: var(--animate-duration);
    animation-duration: var(--animate-duration);
    -webkit-animation-fill-mode: both;

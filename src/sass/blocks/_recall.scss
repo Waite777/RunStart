@@ -17,9 +17,13 @@
    }
 
    &__avatar {
-      max-width: 169px;
-      max-height: 169px;
-      margin: 0 60px 0 20px;
+      width: 169px;
+      height: 169px;
+      margin: 5px 60px 0 20px;
+      img {
+         max-width: 100%;
+         max-height: 100%;
+      }
    }
 
    &__name {
