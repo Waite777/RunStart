@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="re">
+<html lang="ru">
 
 <head>
    <meta charset="UTF-8">
@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
    <link rel="stylesheet" href="css/font.css">
    <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -56,11 +57,13 @@
       </div>
    </section>
 
+
    <section class="advantages">
       <div class="container">
-         <h2 class="advantages__title">Наши приимущества</h2>
-         <div class="advantages__wrapper">
-            <div class="advantages__box">
+         <h2 class="advantages__title animate__animated animate__fadeInUp wow" data-wow-duration="1s">Наши приимущества
+         </h2>
+         <div class=" advantages__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="1s">
+            <div class=" advantages__box">
                <div class="advantages__img"><img src="img/icon/cup.jpg" alt="cup"></div>
                <h3 class="advantages__subtitle">Делимся опытом</h3>
                <div class="advantages__text">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают
@@ -90,14 +93,16 @@
 
    <section class="advice">
       <div class="container">
-         <h2 class="advice__title">Получите бесплатную консультацию<br>
+         <h2 class="advice__title animate__animated animate__fadeInUp wow" data-wow-duration="1s">Получите бесплатную
+            консультацию<br>
             по подбору пульсометра </h2>
-         <div class="advice__descr">
+         <div class=" advice__descr animate__animated animate__fadeInUp wow" data-wow-duration="1s">
             Просто заполните форму заявки<br>
             и мы перезвоним вам в течении 10 минут
          </div>
 
-         <form id="consultation-form" class="feed-form" action="#">
+         <form id="consultation-form" class="feed-form animate__animated animate__fadeInUp wow" data-wow-duration="1s"
+            action=" #">
             <input name="name" required placeholder="Ваше имя" type="text">
             <input name="phone" required placeholder="Ваш телефон">
             <input name="email" required placeholder="Ваш E-mail" type="email">
@@ -108,8 +113,8 @@
       </div>
    </section>
 
-   <section class="carousel">
-      <div class="container">
+   <div class="carousel animate__animated animate__fadeInUp wow" data-wow-duration="1s">
+      <div class=" container">
          <div class="carousel__inner">
             <div>
                <img src="img/carousel/2.jpg" alt="">
@@ -122,9 +127,9 @@
             </div>
          </div>
       </div>
-   </section>
+   </div>
 
-   <section class="catalog" id="catalog">
+   <section class="catalog animate__animated animate__fadeInUp wow" data-wow-duration="1s" id="catalog">
       <div class="container">
          <h2 class="advantages__title">Каталог пульсометров</h2>
 
@@ -145,19 +150,20 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR VANTAGE M2.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_VANTAGE_M2.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE M2</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Разработано для настоящих любителей спорта</li>
-                     <li>Nightly Recharge™: показатель восстановления</li>
-                     <li>Управление музыкой и другие функции умных часов</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Разработано для настоящих любителей спорта</li>
+                        <li>Nightly Recharge™: показатель восстановления</li>
+                        <li>Управление музыкой и другие функции умных часов</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -173,19 +179,20 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR VANTAGE M.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_VANTAGE_M.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE M</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Новейший фитнес-браслет с пульсометром</li>
-                     <li>Training Load Pro</li>
-                     <li>Сменные браслеты</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Новейший фитнес-браслет с пульсометром</li>
+                        <li>Training Load Pro</li>
+                        <li>Сменные браслеты</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -198,22 +205,24 @@
             </div>
 
 
+
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR IGNITE.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_IGNITE.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR IGNITE</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list">
-                     <li>Новейший пульсометр на запястье</li>
-                     <li>Встроенный датчик GPS</li>
-                     <li>Nightly Recharge™: показатель восстановления</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Новейший пульсометр на запястье</li>
+                        <li>Встроенный датчик GPS</li>
+                        <li>Nightly Recharge™: показатель восстановления</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
 
@@ -230,19 +239,20 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR A370.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_A370.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR A370</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Непрерывное измерение сердечного ритма</li>
-                     <li>Отслеживание сна с помощью Polar Sleep Plus</li>
-                     <li>GPS по телефону</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Непрерывное измерение сердечного ритма</li>
+                        <li>Отслеживание сна с помощью Polar Sleep Plus</li>
+                        <li>GPS по телефону</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
 
@@ -259,19 +269,20 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR UNITE.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_UNITE.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR UNITE</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Продвинутое измерение ЧСС на запястье</li>
-                     <li>FitSpark™: ежедневное руководство по тренировкам</li>
-                     <li>Автоматическое измерение уровня восстановления Nightly Recharge™</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Продвинутое измерение ЧСС на запястье</li>
+                        <li>FitSpark™: ежедневное руководство по тренировкам</li>
+                        <li>Автоматическое измерение уровня восстановления Nightly Recharge™</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
 
@@ -287,20 +298,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR GRIT X.png" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_GRIT_X.png" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR GRIT X</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Подробная статистика по подъемам и спускам с функцией Hill Splitter™</li>
-                     <li>Планирование маршрутов с помощью Komoot</li>
-                     <li>Смарт-функция пополнения энергии FuelWise™</li>
-                     <li>Nightly Recharge™: показатель восстановления</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Подробная статистика по подъемам и спускам с функцией Hill Splitter™</li>
+                        <li>Планирование маршрутов с помощью Komoot</li>
+                        <li>Смарт-функция пополнения энергии FuelWise™</li>
+                        <li>Nightly Recharge™: показатель восстановления</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
 
@@ -319,19 +331,20 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR VANTAGE M.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_VANTAGE_M.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE M</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Новейший фитнес-браслет с пульсометром</li>
-                     <li>Training Load Pro</li>
-                     <li>Сменные браслеты</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Новейший фитнес-браслет с пульсометром</li>
+                        <li>Training Load Pro</li>
+                        <li>Сменные браслеты</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -347,20 +360,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/triathlon/POLAR GRIT X.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/triathlon/POLAR_GRIT_X.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR GRIT X</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Подробная статистика по подъемам и спускам с функцией Hill Splitter™</li>
-                     <li>Планирование маршрутов с помощью Komoot</li>
-                     <li>Смарт-функция пополнения энергии FuelWise™</li>
-                     <li>Nightly Recharge™: показатель восстановления</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Подробная статистика по подъемам и спускам с функцией Hill Splitter™</li>
+                        <li>Планирование маршрутов с помощью Komoot</li>
+                        <li>Смарт-функция пополнения энергии FuelWise™</li>
+                        <li>Nightly Recharge™: показатель восстановления</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -375,20 +389,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/triathlon/POLAR VANTAGE V TITAN.jpg" alt="pulsometr"
+                     <img src="img/content/triathlon/POLAR_VANTAGE_V_TITAN.jpg" alt="pulsometr"
                         class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE V TITAN</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Материалы премиум-класса</li>
-                     <li>Новейший фитнес-браслет с пульсометром</li>
-                     <li>Training Load Pro™ и Recovery Pro™</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Материалы премиум-класса</li>
+                        <li>Новейший фитнес-браслет с пульсометром</li>
+                        <li>Training Load Pro™ и Recovery Pro™</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -405,19 +420,20 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/run/POLAR VANTAGE M2.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/run/POLAR_VANTAGE_M2.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE M2</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Разработано для настоящих любителей спорта</li>
-                     <li>Nightly Recharge™: показатель восстановления</li>
-                     <li>Управление музыкой и другие функции умных часов</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Разработано для настоящих любителей спорта</li>
+                        <li>Nightly Recharge™: показатель восстановления</li>
+                        <li>Управление музыкой и другие функции умных часов</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -432,20 +448,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/triathlon/POLAR VANTAGE V TITAN.jpg" alt="pulsometr"
+                     <img src="img/content/triathlon/POLAR_VANTAGE_V_TITAN.jpg" alt="pulsometr"
                         class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE V TITAN</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Материалы премиум-класса</li>
-                     <li>Новейший фитнес-браслет с пульсометром</li>
-                     <li>Training Load Pro™ и Recovery Pro™</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Материалы премиум-класса</li>
+                        <li>Новейший фитнес-браслет с пульсометром</li>
+                        <li>Training Load Pro™ и Recovery Pro™</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -460,20 +477,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/triathlon/POLAR VANTAGE V2.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/triathlon/POLAR_VANTAGE_V2.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE V2</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Облегченный дизайн и материалы премиум-класса</li>
-                     <li>Тесты на эффективность бега и езды на велосипеде</li>
-                     <li>Training Load Pro™ и Recovery Pro™</li>
-                     <li>Управление музыкой и другие необходимые функции умных часов</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Облегченный дизайн и материалы премиум-класса</li>
+                        <li>Тесты на эффективность бега и езды на велосипеде</li>
+                        <li>Training Load Pro™ и Recovery Pro™</li>
+                        <li>Управление музыкой и другие необходимые функции умных часов</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -488,20 +506,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/triathlon/POLAR VANTAGE V.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/triathlon/POLAR_VANTAGE_V.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR VANTAGE V</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>GPS и барометр</li>
-                     <li>Новейший фитнес-браслет с пульсометром</li>
-                     <li>Тренировочная нагрузка и Recovery Pro</li>
-                     <li>Измеритель мощности бега на запястье</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>GPS и барометр</li>
+                        <li>Новейший фитнес-браслет с пульсометром</li>
+                        <li>Тренировочная нагрузка и Recovery Pro</li>
+                        <li>Измеритель мощности бега на запястье</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -516,20 +535,21 @@
             <div class="catalog-item">
                <div class="catalog-item__wrapper">
                   <div class="catalog-item__content catalog-item__content-active">
-                     <img src="img/content/triathlon/POLAR GRIT X.jpg" alt="pulsometr" class="catalog-item__img">
+                     <img src="img/content/triathlon/POLAR_GRIT_X.jpg" alt="pulsometr" class="catalog-item__img">
                      <div class="catalog-item__subtitle">POLAR GRIT X</div>
                      <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме
                      </div>
                      <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                   </div>
-                  <ul class="catalog-item__list ">
-                     <li>Подробная статистика по подъемам и спускам с функцией Hill Splitter™</li>
-                     <li>Планирование маршрутов с помощью Komoot</li>
-                     <li>Смарт-функция пополнения энергии FuelWise™</li>
-                     <li>Nightly Recharge™: показатель восстановления</li>
-
+                  <div class="catalog-item__list">
+                     <ul>
+                        <li>Подробная статистика по подъемам и спускам с функцией Hill Splitter™</li>
+                        <li>Планирование маршрутов с помощью Komoot</li>
+                        <li>Смарт-функция пополнения энергии FuelWise™</li>
+                        <li>Nightly Recharge™: показатель восстановления</li>
+                     </ul>
                      <a href="#" class="catalog-item__back">назад</a>
-                  </ul>
+                  </div>
                </div>
                <hr>
                <div class="catalog-item__footer">
@@ -548,7 +568,7 @@
       <div class="container">
          <h2 class="advantages__title">отзывы клиентов</h2>
 
-         <div class="recall__wrapper">
+         <div class="recall__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="1s">
             <div class="recall__avatar"><img src="img/avatar/avatar3.png" alt=""></div>
             <div class="recall__aside">
                <h3 class="recall__name">Ирина Иванченко</h3>
@@ -566,7 +586,7 @@
 
          <hr>
 
-         <div class="recall__wrapper">
+         <div class="recall__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="1s">
             <div class="recall__avatar"><img src="img/avatar/avatar1.png" alt=""></div>
             <div class="recall__aside">
                <h3 class="recall__name">Иван Сёмочкин</h3>
@@ -584,7 +604,7 @@
 
          <hr>
 
-         <div class="recall__wrapper">
+         <div class="recall__wrapper animate__animated animate__fadeInUp wow" data-wow-duration="1s">
             <div class="recall__avatar"><img src="img/avatar/avatar2.png" alt=""></div>
             <div class="recall__aside">
                <h3 class="recall__name">Юлия Дашкина</h3>
@@ -604,9 +624,9 @@
       </div>
    </section>
 
-   <footer class="footer">
-      <div class="footer__map">
-         <script type="text/javascript" charset="utf-8" async
+   <footer class="footer animate__animated animate__fadeInUp wow" data-wow-duration="1s">
+      <div class=" footer__map">
+         <script async
             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8ddb248201fb59889c37c24c76b34fadaf3bd331b06b840dbf68b312be582eb1&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=false"></script>
       </div>
       <div class="footer__info">
@@ -662,11 +682,16 @@
    </a>
 
 
+
+
+
+
    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
    <script src="js/slick.min.js"></script>
    <script src="js/jquery.validate.min.js"></script>
    <script src="js/jquery.maskedinput.min.js"></script>
+   <script src="js/wow.min.js"></script>
    <script src="js/script.js"></script>
 </body>
 
