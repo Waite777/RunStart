@@ -111,25 +111,72 @@
    }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 450px) {
    .header {
-      display: block;
+      &__logo {
+         width: 250px;
+         img {
+            width: 100%;
+         }
+      }
+   }
+}
 
+@media (max-width: 575px) {
+   .carousel {
+      display: none;
+   }
+
+   .promo {
+      min-height: 640px;
+      padding: 24px 0 40px 0;
+      &__header {
+         font-size: 35px;
+      }
+      &__subheader {
+         font-size: 18px;
+      }
+      &__icons {
+         margin-top: 60px;
+         width: 290px;
+      }
+      &__icon {
+         width: 94px;
+         height: 68px;
+         font-size: 11px;
+         img {
+            max-width: 100%;
+            max-height: 100%;
+         }
+      }
+      &__wrapper {
+         margin-top: 100px;
+      }
+   }
+
+   .header {
+      &__phone {
+         font-size: 16px;
+         margin: 4px;
+      }
       &__contacts {
-         margin-top: 18px;
+         margin-top: 5px;
       }
       &__logo {
          width: 240px;
+         margin: 0px 14px 0px 0px;
          img {
             width: 100%;
          }
       }
    }
    .advantages {
-      padding: 50px 0 50px 0;
+      padding: 11px 0 50px 0;
       &__title {
+         margin-top: 25px;
          font-size: 19px;
          font-weight: 700;
+         margin-bottom: 30px;
       }
       &__box {
          margin: 0 auto;
@@ -155,13 +202,150 @@
    }
 
    .button {
+      font-size: 11px;
+      height: 30px;
       &-submit {
          font-size: 14px;
          height: 50px;
+      }
+      &-mini {
+         width: 127px;
+         height: 37px;
+         font-size: 12px;
+      }
+      &-main {
+         margin-top: 53px;
+         width: 284px;
+         height: 47px;
+         font-size: 14px;
       }
    }
    .feed-form {
       width: 270px;
       margin-top: 28px;
+   }
+
+   .catalog {
+      padding-bottom: 15px;
+      &__tabs {
+         margin-top: 20px;
+         margin-bottom: 20px;
+         padding-left: 0;
+         list-style-type: none;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+      }
+      &__tab {
+         height: 45px;
+      }
+
+      &-item {
+         &__old-price {
+            font-size: 11px;
+         }
+         &__price {
+            font-size: 14px;
+         }
+         &__wrapper {
+            display: flex;
+            width: calc(220% + 40px);
+         }
+         &__content {
+            &-active {
+               margin-right: 72px;
+            }
+         }
+         &__list {
+            &-active {
+               padding-right: 25px;
+            }
+         }
+      }
+   }
+
+   .carousel {
+      padding: 29px 0;
+   }
+
+   .recall {
+      margin-bottom: 47px;
+      &__aside {
+         margin: 0px 0px 0px 20px;
+      }
+      &__avatar {
+         display: none;
+      }
+      &__text {
+         font-size: 14px;
+         font-weight: 300;
+      }
+      .recall__attempt {
+         margin-bottom: 10px;
+      }
+      hr {
+         margin: 25px 0 22px 0;
+      }
+   }
+
+   .footer {
+      &__info {
+         width: 270px;
+         height: 170px;
+         padding: 22px 40px 40px 40px;
+      }
+      &__addr {
+         font-size: 15px;
+         margin-bottom: 12px;
+      }
+      &__phone {
+         font-size: 15px;
+         margin-bottom: 10px;
+      }
+      &__social {
+         &-item {
+            width: 35px;
+            height: 35px;
+            margin: 0 5px;
+            img {
+               height: 17px;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 480px) {
+   .promo {
+      &__header {
+         font-size: 30px;
+      }
+      &__subheader {
+         font-size: 16px;
+      }
+   }
+}
+
+@media (max-width: 410px) {
+   .header {
+      display: block;
+      &__logo {
+         width: 250px;
+         img {
+            width: 100%;
+         }
+      }
+      &__phone {
+         margin: 9px 6px 0px 0px;
+      }
+   }
+   .promo {
+      &__header {
+         font-size: 23px;
+      }
+      &__subheader {
+         font-size: 13px;
+      }
    }
 }
