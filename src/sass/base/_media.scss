@@ -12,7 +12,7 @@
 @media (max-width: 992px) {
    .advantages {
       &__box {
-         width: 195px;
+         width: 233px;
       }
    }
 
@@ -69,12 +69,11 @@
       }
       &__wrapper {
          flex-direction: column;
+         justify-content: center;
       }
       &__box {
-         width: 540px;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
+         margin: 0 auto;
+         min-width: 540px;
       }
       &__img {
          margin-top: 20px;
@@ -113,4 +112,56 @@
 }
 
 @media (max-width: 575px) {
+   .header {
+      display: block;
+
+      &__contacts {
+         margin-top: 18px;
+      }
+      &__logo {
+         width: 240px;
+         img {
+            width: 100%;
+         }
+      }
+   }
+   .advantages {
+      padding: 50px 0 50px 0;
+      &__title {
+         font-size: 19px;
+         font-weight: 700;
+      }
+      &__box {
+         margin: 0 auto;
+         min-width: 280px;
+      }
+   }
+   .advice {
+      padding: 50px 0 62px 0;
+      &__title {
+         font-size: 19px;
+         font-weight: 700;
+      }
+
+      &__descr {
+         margin-top: 25px;
+         font-size: 13px;
+      }
+   }
+
+   .feed-form {
+      width: 270px;
+      margin-top: 28px;
+   }
+
+   .button {
+      &-submit {
+         font-size: 14px;
+         height: 50px;
+      }
+   }
+   .feed-form {
+      width: 270px;
+      margin-top: 28px;
+   }
 }
